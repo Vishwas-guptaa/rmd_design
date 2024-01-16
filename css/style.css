@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.property{
+    width: 100%;
+    height: 756px;
+    
+}
+.pro1{
+    padding: 18px 50px 0px;
+}
+.img-fluid{
+    width: 100%;
+}
+.hed1{
+    font-family: Kumbh Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.p1{
+    Width: 540px;
+Height :48px;
+font-family: Kumbh Sans;
+font-size: 14px;
+font-weight: 300;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+
+ .custom-button-1 {
+    background-color:#023063;
+    Width: 140px;
+    Height: 45px;
+    
+    color: white;
+    padding: 5px 1px;
+    border: none;
+    border-radius: none;
+    cursor: pointer;
+    font-size: 14px;
+    
+  }
+ .custom-button-2{
+    Width: 140px;
+    Height: 45px;
+    font-family: Nunito;
+font-size: 14px;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+background-color: white;
+color: rgba(16, 74, 139, 1);
+border-color:  rgba(16, 74, 139, 1);
+
+  }
+  .custom-button-3{
+    Width: 172px;
+    Height: 45px;
+    font-family: Nunito;
+font-size: 14px;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+background-color: white;
+color: rgba(16, 74, 139, 1);
+border-color:  rgba(16, 74, 139, 1);
+
+
+  }
+
+  
+
+    @media (max-width: 1168px) {
+        .p1{
+        width: 100%; 
+        Height :auto;
+        font-family: Kumbh Sans;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+}
+    }
+
+.map-section{
+    margin-top: 50px;
+}
+.footer-sec{
+    width: 100%;
+    height: 362px;
+    background-color: rgba(6, 55, 109, 1);
+    /* margin-top: 150px; */
+
+}
+.footer-con{
+    padding-top: 150px;
+}
+

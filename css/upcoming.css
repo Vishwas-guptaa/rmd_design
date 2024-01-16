@@ -1,0 +1,382 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+.upcoming_sec1 {
+    width: 100%;
+
+}
+
+.upcoming_banner {
+    width: 100%;
+    height: 845px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(180deg, rgba(176, 213, 255, 0.45) 10.59%, rgba(2, 43, 88, 0.41) 46.67%, rgba(2, 43, 88, 0.68) 74.67%, rgba(2, 43, 88, 0.85) 95.67%), url("/image/Banner.png");
+    ;
+
+}
+
+.whatsapps-icons {
+    position: absolute;
+    top: 78%;
+    right: 5%;
+    transform: translate(0%, -50%);
+    z-index: 2;
+}
+
+.whatsapps-icons img {
+    width: 60px;
+}
+
+.text-container {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translate(0%, -50%);
+    color: #ffffff;
+    z-index: 1;
+    width: 80%;
+}
+
+.text-container .hh1 {
+    font-family: Kumbh Sans;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0em;
+    margin-bottom: 35px;
+    cursor: pointer;
+    transition: transform 0.9s ease-in-out
+}
+
+.hh1:hover {
+    font-size: 49px;
+    transform: translateX(5px);
+}
+
+.text-container .pp1 {
+    font-family: Kumbh Sans;
+    margin-bottom: 35px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: justified;
+    color: rgba(253, 178, 29, 1);
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    ;
+
+
+}
+
+.text-container .pp2 {
+
+    font-family: Kumbh Sans;
+    margin-bottom: 35px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: justified;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.text-container .pp3 {
+    font-family: Kumbh Sans;
+    margin-bottom: 35px;
+    font-size: 30px;
+    /* font-weight: 600; */
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: justified;
+    color: rgba(141, 195, 255, 1);
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    ;
+
+}
+
+.hed-up {
+    font-family: Fredoka;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(110, 114, 118, 1);
+    ;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .text-container {
+        width: 90%;
+        left: 5%;
+    }
+
+    .text-container .hh1 {
+        font-size: 28px;
+        line-height: 30px;
+        margin-bottom: 15px;
+    }
+
+    .text-container .pp2 {
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+    .text-container .pp1 {
+        margin-bottom: 15px;
+    }
+    .text-container .pp3{
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .hed-up {
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 40px;
+    }
+}
+
+.third-sec-up {
+    padding: 0px 90px;
+}
+
+.circle-container {
+    display: flex;
+
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.circle {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin: 0 3px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(33, 104, 183, 1)
+}
+
+.arrow-left,
+.arrow-right {
+    color: rgba(33, 104, 183, 1);
+    font-size: 15px;
+
+
+}
+
+.button-circle {
+    font-family: Nunito;
+    width: 50px;
+    text-align: center;
+    margin: 0 5px;
+    height: 30px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    border-radius: 25px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    background: rgba(33, 104, 183, 1);
+
+
+
+}
+
+.text,
+.date {
+    margin-right: 10px;
+}
+
+
+.search-container {
+    position: relative;
+}
+
+.search-input {
+    padding: 10px;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    /* width: 100px; */
+    width: 50%;
+    /* Adjust the width as per your requirement */
+    /* max-width: 300px;  */
+
+    background-color: rgba(245, 247, 248, 1);
+
+}
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #555;
+    /* Set the color of the search icon */
+}
+
+/*--------------- section-four css start -----------------------*/
+
+
+.fourth-sec-up {
+    padding: 0 90px;
+}
+
+.fourth-sec-up img {
+    width: 100%;
+}
+
+.pp4 {
+    font-family: Kumbh Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(124, 122, 123, 1);
+
+}
+
+.hh3 {
+    font-family: Kumbh Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(16, 74, 139, 1);
+
+}
+
+.pp5 {
+    font-family: Kumbh Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: justified;
+    color: rgba(124, 122, 123, 1);
+
+
+
+
+}
+
+.pp6 {
+    font-family: Kumbh Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(124, 122, 123, 1);
+
+}
+
+.pp8 {
+    font-family: Nunito;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.pp7 {
+    font-family: Kumbh Sans;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+
+.icon-container {
+    display: inline-block;
+    justify-content: end;
+    text-decoration: none;
+
+}
+
+.icon-container a {
+    text-decoration: none;
+}
+
+.social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1.5px solid rgba(213, 215, 217, 1);
+    border-radius: 50%;
+    width: 40px;
+    /* Adjust width and height as needed */
+    height: 40px;
+    /* margin-left: 5px;  */
+    text-decoration: none;
+    color: inherit;
+}
+
+.youtube {
+    color: #ff0000;
+    /* Adjust background color for YouTube */
+}
+
+.instagram {
+    color: #405de6;
+    /* Adjust background color for Instagram */
+}
+
+.up-date {
+    font-family: Nunito;
+    font-size: 14px;
+    font-weight: 500;
+    /* line-height: 30px; */
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(82, 84, 87, 1);
+
+}
+
+.hrr {
+    width: 100%;
+    border: 1px solid rgba(185, 187, 189, 1);
+    color: rgba(185, 187, 189, 1);
+    height: 0px;
+    margin-top: 11px;
+
+}
+
+.hrr1 {
+    border: 1px solid rgba(185, 187, 189, 1);
+    width: 100%;
+    margin-left: 20px;
+
+}
+
+@media screen and (max-width: 767px) {
+    .third-sec-up {
+        padding: 0 20px;
+    }
+
+    .fourth-sec-up {
+        padding: 0 20px;
+    }
+
+}
